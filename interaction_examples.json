@@ -1,0 +1,232 @@
+[
+  {
+    "med_a_generic": "Varfarina",
+    "med_b_generic": "Fluconazol",
+    "severity": "grave",
+    "effect": "Possível aumento do efeito anticoagulante e risco de sangramento.",
+    "recommendation": "Exemplo para testes acadêmicos; requer confirmação em fonte clínica atualizada por profissional habilitado.",
+    "source": "NÃO VALIDADO — cenário de teste acadêmico; não utilizar para decisão clínica",
+    "review_date": "2026-10-27",
+    "rule_version": "2.0-academico"
+  },
+  {
+    "med_a_generic": "Sertralina",
+    "med_b_generic": "Ibuprofeno",
+    "severity": "moderado",
+    "effect": "Possível aumento do risco de sangramento gastrointestinal.",
+    "recommendation": "Exemplo para testes acadêmicos; requer confirmação em fonte clínica atualizada por profissional habilitado.",
+    "source": "NÃO VALIDADO — cenário de teste acadêmico; não utilizar para decisão clínica",
+    "review_date": "2026-10-27",
+    "rule_version": "2.0-academico"
+  },
+  {
+    "med_a_generic": "Sinvastatina",
+    "med_b_generic": "Anlodipino",
+    "severity": "moderado",
+    "effect": "Possível aumento de exposição à sinvastatina e risco muscular.",
+    "recommendation": "Exemplo para testes acadêmicos; requer confirmação em fonte clínica atualizada por profissional habilitado.",
+    "source": "NÃO VALIDADO — cenário de teste acadêmico; não utilizar para decisão clínica",
+    "review_date": "2026-10-27",
+    "rule_version": "2.0-academico"
+  },
+  {
+    "med_a_generic": "Varfarina",
+    "med_b_generic": "Ácido acetilsalicílico",
+    "severity": "grave",
+    "effect": "Possível aumento do risco de sangramento.",
+    "recommendation": "Exemplo para testes acadêmicos; requer confirmação em fonte clínica atualizada por profissional habilitado.",
+    "source": "NÃO VALIDADO — cenário de teste acadêmico; não utilizar para decisão clínica",
+    "review_date": "2026-10-27",
+    "rule_version": "2.0-academico"
+  },
+  {
+    "med_a_generic": "Varfarina",
+    "med_b_generic": "Metronidazol",
+    "severity": "grave",
+    "effect": "Possível aumento do efeito anticoagulante.",
+    "recommendation": "Exemplo para testes acadêmicos; requer confirmação em fonte clínica atualizada por profissional habilitado.",
+    "source": "NÃO VALIDADO — cenário de teste acadêmico; não utilizar para decisão clínica",
+    "review_date": "2026-10-27",
+    "rule_version": "2.0-academico"
+  },
+  {
+    "med_a_generic": "Varfarina",
+    "med_b_generic": "Sulfametoxazol + Trimetoprima",
+    "severity": "grave",
+    "effect": "Possível aumento do efeito anticoagulante.",
+    "recommendation": "Exemplo para testes acadêmicos; requer confirmação em fonte clínica atualizada por profissional habilitado.",
+    "source": "NÃO VALIDADO — cenário de teste acadêmico; não utilizar para decisão clínica",
+    "review_date": "2026-10-27",
+    "rule_version": "2.0-academico"
+  },
+  {
+    "med_a_generic": "Apixabana",
+    "med_b_generic": "Ibuprofeno",
+    "severity": "grave",
+    "effect": "Possível aumento do risco de sangramento.",
+    "recommendation": "Exemplo para testes acadêmicos; requer confirmação em fonte clínica atualizada por profissional habilitado.",
+    "source": "NÃO VALIDADO — cenário de teste acadêmico; não utilizar para decisão clínica",
+    "review_date": "2026-10-27",
+    "rule_version": "2.0-academico"
+  },
+  {
+    "med_a_generic": "Rivaroxabana",
+    "med_b_generic": "Naproxeno",
+    "severity": "grave",
+    "effect": "Possível aumento do risco de sangramento.",
+    "recommendation": "Exemplo para testes acadêmicos; requer confirmação em fonte clínica atualizada por profissional habilitado.",
+    "source": "NÃO VALIDADO — cenário de teste acadêmico; não utilizar para decisão clínica",
+    "review_date": "2026-10-27",
+    "rule_version": "2.0-academico"
+  },
+  {
+    "med_a_generic": "Clopidogrel",
+    "med_b_generic": "Omeprazol",
+    "severity": "moderado",
+    "effect": "Possível redução do efeito antiplaquetário.",
+    "recommendation": "Exemplo para testes acadêmicos; requer confirmação em fonte clínica atualizada por profissional habilitado.",
+    "source": "NÃO VALIDADO — cenário de teste acadêmico; não utilizar para decisão clínica",
+    "review_date": "2026-10-27",
+    "rule_version": "2.0-academico"
+  },
+  {
+    "med_a_generic": "Claritromicina",
+    "med_b_generic": "Sinvastatina",
+    "severity": "contraindicado",
+    "effect": "Possível elevação acentuada da exposição à sinvastatina e risco de rabdomiólise.",
+    "recommendation": "Exemplo para testes acadêmicos; requer confirmação em fonte clínica atualizada por profissional habilitado.",
+    "source": "NÃO VALIDADO — cenário de teste acadêmico; não utilizar para decisão clínica",
+    "review_date": "2026-10-27",
+    "rule_version": "2.0-academico"
+  },
+  {
+    "med_a_generic": "Itraconazol",
+    "med_b_generic": "Sinvastatina",
+    "severity": "contraindicado",
+    "effect": "Possível elevação da exposição à sinvastatina e risco muscular grave.",
+    "recommendation": "Exemplo para testes acadêmicos; requer confirmação em fonte clínica atualizada por profissional habilitado.",
+    "source": "NÃO VALIDADO — cenário de teste acadêmico; não utilizar para decisão clínica",
+    "review_date": "2026-10-27",
+    "rule_version": "2.0-academico"
+  },
+  {
+    "med_a_generic": "Enalapril",
+    "med_b_generic": "Espironolactona",
+    "severity": "grave",
+    "effect": "Possível hipercalemia.",
+    "recommendation": "Exemplo para testes acadêmicos; requer confirmação em fonte clínica atualizada por profissional habilitado.",
+    "source": "NÃO VALIDADO — cenário de teste acadêmico; não utilizar para decisão clínica",
+    "review_date": "2026-10-27",
+    "rule_version": "2.0-academico"
+  },
+  {
+    "med_a_generic": "Losartana",
+    "med_b_generic": "Espironolactona",
+    "severity": "grave",
+    "effect": "Possível hipercalemia.",
+    "recommendation": "Exemplo para testes acadêmicos; requer confirmação em fonte clínica atualizada por profissional habilitado.",
+    "source": "NÃO VALIDADO — cenário de teste acadêmico; não utilizar para decisão clínica",
+    "review_date": "2026-10-27",
+    "rule_version": "2.0-academico"
+  },
+  {
+    "med_a_generic": "Lítio",
+    "med_b_generic": "Hidroclorotiazida",
+    "severity": "grave",
+    "effect": "Possível aumento da concentração de lítio.",
+    "recommendation": "Exemplo para testes acadêmicos; requer confirmação em fonte clínica atualizada por profissional habilitado.",
+    "source": "NÃO VALIDADO — cenário de teste acadêmico; não utilizar para decisão clínica",
+    "review_date": "2026-10-27",
+    "rule_version": "2.0-academico"
+  },
+  {
+    "med_a_generic": "Lítio",
+    "med_b_generic": "Ibuprofeno",
+    "severity": "grave",
+    "effect": "Possível aumento da concentração de lítio.",
+    "recommendation": "Exemplo para testes acadêmicos; requer confirmação em fonte clínica atualizada por profissional habilitado.",
+    "source": "NÃO VALIDADO — cenário de teste acadêmico; não utilizar para decisão clínica",
+    "review_date": "2026-10-27",
+    "rule_version": "2.0-academico"
+  },
+  {
+    "med_a_generic": "Tramadol",
+    "med_b_generic": "Sertralina",
+    "severity": "grave",
+    "effect": "Possível síndrome serotoninérgica e convulsões.",
+    "recommendation": "Exemplo para testes acadêmicos; requer confirmação em fonte clínica atualizada por profissional habilitado.",
+    "source": "NÃO VALIDADO — cenário de teste acadêmico; não utilizar para decisão clínica",
+    "review_date": "2026-10-27",
+    "rule_version": "2.0-academico"
+  },
+  {
+    "med_a_generic": "Fluoxetina",
+    "med_b_generic": "Tramadol",
+    "severity": "grave",
+    "effect": "Possível síndrome serotoninérgica e convulsões.",
+    "recommendation": "Exemplo para testes acadêmicos; requer confirmação em fonte clínica atualizada por profissional habilitado.",
+    "source": "NÃO VALIDADO — cenário de teste acadêmico; não utilizar para decisão clínica",
+    "review_date": "2026-10-27",
+    "rule_version": "2.0-academico"
+  },
+  {
+    "med_a_generic": "Clonazepam",
+    "med_b_generic": "Morfina",
+    "severity": "grave",
+    "effect": "Possível sedação intensa e depressão respiratória.",
+    "recommendation": "Exemplo para testes acadêmicos; requer confirmação em fonte clínica atualizada por profissional habilitado.",
+    "source": "NÃO VALIDADO — cenário de teste acadêmico; não utilizar para decisão clínica",
+    "review_date": "2026-10-27",
+    "rule_version": "2.0-academico"
+  },
+  {
+    "med_a_generic": "Diazepam",
+    "med_b_generic": "Fentanila",
+    "severity": "grave",
+    "effect": "Possível depressão respiratória.",
+    "recommendation": "Exemplo para testes acadêmicos; requer confirmação em fonte clínica atualizada por profissional habilitado.",
+    "source": "NÃO VALIDADO — cenário de teste acadêmico; não utilizar para decisão clínica",
+    "review_date": "2026-10-27",
+    "rule_version": "2.0-academico"
+  },
+  {
+    "med_a_generic": "Citalopram",
+    "med_b_generic": "Haloperidol",
+    "severity": "grave",
+    "effect": "Possível prolongamento do intervalo QT.",
+    "recommendation": "Exemplo para testes acadêmicos; requer confirmação em fonte clínica atualizada por profissional habilitado.",
+    "source": "NÃO VALIDADO — cenário de teste acadêmico; não utilizar para decisão clínica",
+    "review_date": "2026-10-27",
+    "rule_version": "2.0-academico"
+  },
+  {
+    "med_a_generic": "Carbamazepina",
+    "med_b_generic": "Apixabana",
+    "severity": "grave",
+    "effect": "Possível redução da exposição ao anticoagulante.",
+    "recommendation": "Exemplo para testes acadêmicos; requer confirmação em fonte clínica atualizada por profissional habilitado.",
+    "source": "NÃO VALIDADO — cenário de teste acadêmico; não utilizar para decisão clínica",
+    "review_date": "2026-10-27",
+    "rule_version": "2.0-academico"
+  },
+  {
+    "med_a_generic": "Fenitoína",
+    "med_b_generic": "Rivaroxabana",
+    "severity": "grave",
+    "effect": "Possível redução da exposição ao anticoagulante.",
+    "recommendation": "Exemplo para testes acadêmicos; requer confirmação em fonte clínica atualizada por profissional habilitado.",
+    "source": "NÃO VALIDADO — cenário de teste acadêmico; não utilizar para decisão clínica",
+    "review_date": "2026-10-27",
+    "rule_version": "2.0-academico"
+  },
+  {
+    "med_a_generic": "Ibuprofeno",
+    "med_b_generic": "Clopidogrel",
+    "severity": "grave",
+    "effect": "A associação de AINE com antiagregante plaquetário aumenta o risco de sangramento, especialmente gastrointestinal.",
+    "recommendation": "Evitar a associação quando possível e avaliar alternativas e risco individual. Não suspender clopidogrel sem orientação médica.",
+    "source": "REGRA DEMONSTRATIVA — necessita validação farmacológica antes de uso clínico",
+    "review_date": "2026-10-27",
+    "rule_version": "2.1-academico"
+  }
+]

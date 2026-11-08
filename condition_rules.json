@@ -1,0 +1,74 @@
+[
+  {
+    "id": "COND-001",
+    "condition": "gravidez",
+    "medications": [
+      "Ibuprofeno",
+      "Diclofenaco",
+      "Naproxeno",
+      "Cetoprofeno",
+      "Meloxicam",
+      "Celecoxibe"
+    ],
+    "severity": "grave",
+    "title": "Gestação: AINE requer avaliação por idade gestacional",
+    "effect": "AINEs sistêmicos devem ser evitados a partir de aproximadamente 20 semanas, salvo orientação específica; após 30 semanas, evitar devido ao risco fetal. Exceção: ácido acetilsalicílico em baixa dose sob indicação obstétrica.",
+    "recommendation": "Confirmar semanas gestacionais, via de administração, dose e indicação antes de decidir. Não classificar como contraindicação absoluta sem esses dados.",
+    "source": "FDA - Drug Safety Communication (15/10/2020, atualização 01/09/2022)",
+    "url": "https://www.fda.gov/drugs/drug-safety-and-availability/fda-recommends-avoiding-use-nsaids-pregnancy-20-weeks-or-later-because-they-can-result-low-amniotic"
+  },
+  {
+    "id": "COND-002",
+    "condition": "gravidez",
+    "medications": [
+      "Losartana"
+    ],
+    "severity": "grave",
+    "title": "Gestação: losartana - toxicidade fetal",
+    "effect": "Fármacos que atuam no sistema renina-angiotensina podem causar dano fetal; bula orienta descontinuar losartana assim que a gestação for identificada.",
+    "recommendation": "Encaminhar imediatamente à avaliação médica para substituição. Não suspender por conta própria sem orientação clínica.",
+    "source": "DailyMed - Losartan potassium tablets, advertência fetal",
+    "url": "https://www.dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=e7f6b25b-ec4c-4c3a-a541-617d2d9ab393&type=display"
+  },
+  {
+    "id": "COND-003",
+    "condition": "renal",
+    "medications": [
+      "Metformina"
+    ],
+    "severity": "moderado",
+    "title": "Doença renal: metformina exige TFGe atual",
+    "effect": "Metformina é contraindicada para TFGe inferior a 30 mL/min/1,73 m²; início não recomendado entre 30 e 45. Diagnóstico genérico de doença renal não determina TFGe.",
+    "recommendation": "Obter TFGe recente e avaliar faixa de função renal; sem resultado não inferir contraindicação nem segurança.",
+    "source": "DailyMed - Metformin hydrochloride, seções 2.3 e 4",
+    "url": "https://www.dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=836f3647-bfef-40d1-b475-c0d240241a67"
+  },
+  {
+    "id": "COND-004",
+    "condition": "renal",
+    "medications": [
+      "Ibuprofeno"
+    ],
+    "severity": "moderado",
+    "title": "Doença renal: ibuprofeno pode agravar função renal",
+    "effect": "A bula desaconselha ibuprofeno em doença renal avançada e descreve risco de lesão renal em pacientes suscetíveis.",
+    "recommendation": "Avaliar função renal, estágio, hidratação, dose e medicamentos associados.",
+    "source": "DailyMed - Ibuprofen, Renal Effects / Advanced Renal Disease",
+    "url": "https://www.dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=71b5b2a2-397e-4dcb-b0c7-ef08df4337e0&type=display"
+  },
+  {
+    "id": "COND-005",
+    "condition": "diabetes",
+    "medications": [
+      "Ciprofloxacino",
+      "Levofloxacino",
+      "Moxifloxacino"
+    ],
+    "severity": "moderado",
+    "title": "Diabetes: fluoroquinolona pode alterar glicemia",
+    "effect": "Fluoroquinolonas sistêmicas podem causar hipoglicemia grave, especialmente em pessoas com diabetes que utilizam insulina ou hipoglicemiantes.",
+    "recommendation": "Revisar via de administração, tratamento antidiabético e necessidade de monitorização glicêmica; não classificar como contraindicação absoluta apenas por diabetes.",
+    "source": "FDA - Drug Safety Communication (10/07/2018)",
+    "url": "https://www.fda.gov/media/114192/download"
+  }
+]
