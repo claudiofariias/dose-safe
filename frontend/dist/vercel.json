@@ -1,0 +1,13 @@
+
+{
+  "version": 2,
+  "framework": null,
+  "buildCommand": null,
+  "outputDirectory": ".",
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "https://backend-production-632f0.up.railway.app/api/:path*"
+    }
+  ]
+}
