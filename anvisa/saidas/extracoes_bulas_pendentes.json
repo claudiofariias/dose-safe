@@ -1,0 +1,12 @@
+{
+  "metadados": {
+    "gerado_em_utc": "2026-11-11T18:48:00+00:00",
+    "origem_catalogo": "catalog_100.json",
+    "total_catalogo": 100,
+    "base_registros_url": "https://dados.anvisa.gov.br/dados/DADOS_ABERTOS_MEDICAMENTOS.csv",
+    "registros_csv_processados": 229540,
+    "observacao": "Dados de registro são candidatos de pareamento, não regras clínicas. PDFs extraídos não ativam validação de dose.",
+    "problemas": []
+  },
+  "bulas": []
+}

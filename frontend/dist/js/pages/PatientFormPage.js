@@ -94,7 +94,7 @@ export class PatientFormPage extends React.Component {
           h('div', { className: 'clinical-radio-grid' },
             [['nao_informada','Não investigado'],['nenhuma','Paciente nega alergias conhecidas'],['informada','Alergia informada']].map(([value,label]) => h('label', { key: value, className: 'clinical-radio' },
               h('input', { type: 'radio', name: 'allergy-status', checked: this.state.allergyStatus === value, onChange: () => this.setState({ allergyStatus: value, allergies: value === 'informada' ? this.state.allergies : [] }) }), label))),
-          this.state.allergyStatus === 'informada' ? h(React.Fragment, null,
+          this.state.allergyStatus === 'informada' ? h('div', null,
             h('div', { className: 'clinical-add-row' },
               h('input', { className: 'input', value: this.state.allergyInput, placeholder: 'Buscar medicamento ou digitar outra alergia', 'aria-label': 'Alergia', onChange: e => this.setState({ allergyInput: e.target.value }), onKeyDown: e => { if (e.key === 'Enter') { e.preventDefault(); this.updateList('allergies', this.state.allergyInput); } } }),
               h('button', { className: 'btn btn-outline', type: 'button', onClick: () => this.updateList('allergies', this.state.allergyInput) }, 'Adicionar')),

@@ -1,6 +1,7 @@
 import { AppShell } from '../components/AppShell.js';
 import { api } from '../services/api.js';
 import { formatDate } from '../utils/format.js';
+import { isRiskAlert, summarizeAlertCounts } from '../utils/alertText.js';
 export class HistoryPage extends React.Component {
     constructor() {
         super(...arguments);
@@ -40,6 +41,8 @@ class HistoryItem extends React.Component {
         const medications = this.props.medications || [];
         const items = prescription.items || [];
         const alerts = prescription.alerts || [];
+        const clinicalRisks = alerts.filter(isRiskAlert);
+        const countLabel = summarizeAlertCounts(alerts);
         const expanded = this.state.expanded;
 
         return React.createElement(
@@ -78,11 +81,9 @@ class HistoryItem extends React.Component {
                 React.createElement(
                     "div",
                     {
-                        className: "alert-count",
-                        style: { fontSize: "12px" }
+                        className: 'alert-count ' + (clinicalRisks.length ? 'alert-count-risk' : alerts.length ? 'alert-count-info' : 'alert-count-empty')
                     },
-                    alerts.length,
-                    " alerta(s)"
+                    countLabel
                 ),
 
                 React.createElement(
@@ -169,18 +170,13 @@ class HistoryItem extends React.Component {
                             null,
                             med ? med.generic_name : "Medicamento"
                         ),
-                        React.createElement(
-                            "div",
-                            null,
-                            "Dose: ",
-                            item.dose || "Não informada"
-                        ),
-                        React.createElement(
-                            "div",
-                            null,
-                            "Frequência: ",
-                            item.frequency || "Não informada"
-                        )
+                        item.presentation && React.createElement("div",null,"Apresentação: ",item.presentation_label||item.presentation," • ",item.strength_value," ",item.strength_unit),
+                        React.createElement("div",null,"Por administração: ",item.dose_quantity ? `${item.dose_quantity} ${item.dose_unit || ''}` : `${item.dose || 'Não informada'} ${item.unit || ''}`),
+                        item.presentation && React.createElement("div",null,"Dispensar: ",item.dispense_quantity," ",item.dispense_unit),
+                        React.createElement("div",null,"Via: ",item.route||"Não informada"),
+                        React.createElement("div",null,"Frequência: ",item.frequency||"Não informada"),
+                        React.createElement("div",null,"Duração: ",item.duration_mode==='continuous'?'Uso contínuo':item.duration_mode==='single'?'Dose única':item.duration_mode==='months'?`${item.duration_months} meses`:`${item.duration_days||'-'} dias`),
+                        item.instruction && React.createElement("div",null,"Orientações: ",item.instruction)
                     );
                 }),
 
@@ -192,7 +188,7 @@ class HistoryItem extends React.Component {
                             marginTop: "15px"
                         }
                     },
-                    "Alertas identificados (",
+                    "Análise automatizada (",
                     alerts.length,
                     ")"
                 ),
@@ -203,14 +199,13 @@ class HistoryItem extends React.Component {
                             "div",
                             {
                                 key: index,
-                                style: {
-                                    background: "#fff4df",
-                                    padding: "10px",
-                                    marginTop: "8px",
-                                    borderRadius: "8px",
-                                    fontSize: "12px"
-                                }
+                                className: 'history-alert ' + (isRiskAlert(alert) ?
+                                    (['contraindicado', 'grave'].includes(String(alert.severity || '').toLowerCase()) ?
+                                        'history-alert-danger' : 'history-alert-warning') : 'history-alert-info')
                             },
+                            React.createElement('span', { className: 'history-alert-severity' },
+                                isRiskAlert(alert) ? (String(alert.severity || '').toLowerCase() === 'contraindicado' ?
+                                    'Contraindicação' : 'Alerta de risco') : 'Informação pendente'),
                             React.createElement(
                                 "strong",
                                 null,
@@ -225,7 +220,10 @@ class HistoryItem extends React.Component {
                                 "div",
                                 { style: { marginTop: "5px" } },
                                 alert.recommendation || ""
-                            )
+                            ),
+                            alert.source && React.createElement('details', { className: 'history-alert-source' },
+                                React.createElement('summary', null, 'Fonte da informação'),
+                                React.createElement('p', null, alert.source))
                         )
                     )
                     : React.createElement(

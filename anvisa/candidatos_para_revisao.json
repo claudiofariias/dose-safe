@@ -1,0 +1,1006 @@
+{
+  "origem": "CSV oficial cruzado por texto; ordenação conservadora",
+  "restricao": "Nenhuma correspondência comprova posologia ou apresentação. Associações exigem validação clínica separada.",
+  "medicamentos": [
+    {
+      "medicamento": "Dipirona",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Ibuprofeno",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Sertralina",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Varfarina",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Fluconazol",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Sinvastatina",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Anlodipino",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Amoxicilina",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Paracetamol",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Losartana",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Metformina",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Omeprazol",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Pantoprazol",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Esomeprazol",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Lansoprazol",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Ácido acetilsalicílico",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Clopidogrel",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Apixabana",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Rivaroxabana",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Dabigatrana",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Enoxaparina",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Heparina",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Diclofenaco",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Naproxeno",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Cetoprofeno",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Meloxicam",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Celecoxibe",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Tramadol",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Codeína",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Morfina",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Fentanila",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Gabapentina",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Pregabalina",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Carbamazepina",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Fenitoína",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Fenobarbital",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Ácido valproico",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Lamotrigina",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Levetiracetam",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Topiramato",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Fluoxetina",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Paroxetina",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Escitalopram",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Citalopram",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Venlafaxina",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Duloxetina",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Amitriptilina",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Nortriptilina",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Bupropiona",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Mirtazapina",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Diazepam",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Clonazepam",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Alprazolam",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Lorazepam",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Zolpidem",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Quetiapina",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Risperidona",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Haloperidol",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Olanzapina",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Lítio",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Azitromicina",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Claritromicina",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Eritromicina",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Ciprofloxacino",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Levofloxacino",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Moxifloxacino",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Doxiciclina",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Cefalexina",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Ceftriaxona",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Cefuroxima",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Clindamicina",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Metronidazol",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Sulfametoxazol + Trimetoprima",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Nitrofurantoína",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Cetoconazol",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Itraconazol",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Terbinafina",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Hidroclorotiazida",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Furosemida",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Espironolactona",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Enalapril",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Captopril",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Lisinopril",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Valsartana",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Atenolol",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Metoprolol",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Propranolol",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Carvedilol",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Diltiazem",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Verapamil",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Atorvastatina",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Rosuvastatina",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Pravastatina",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Levotiroxina",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Insulina regular",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Insulina NPH",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Glibenclamida",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Gliclazida",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Empagliflozina",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    },
+    {
+      "medicamento": "Sitagliptina",
+      "tem_candidatos_ativos": false,
+      "total_candidatos_ativos_na_amostra": 0,
+      "candidatos_para_conferencia": [],
+      "fonte": "DADOS_ABERTOS_MEDICAMENTOS.csv",
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "total_candidatos_ativos_no_csv": 0,
+      "total_candidatos_inativos_no_csv": 0
+    }
+  ]
+}

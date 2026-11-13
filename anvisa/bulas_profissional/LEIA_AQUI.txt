@@ -1,0 +1,4 @@
+Guarde aqui PDFs de BULAS PROFISSIONAIS selecionadas no Bulário da ANVISA.
+Associe nome, número de registro, apresentação, fonte e data no arquivo
+anvisa/vinculos_bulas.json ANTES de executar --extrair-bulas.
+Não copie automaticamente centenas de PDFs do Bulário por web crawler.

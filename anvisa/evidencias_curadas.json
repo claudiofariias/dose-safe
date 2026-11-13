@@ -1,0 +1,135 @@
+{
+  "versao": "pre-revisao-2026-11-11",
+  "objetivo": "Informações extraídas de fontes identificáveis para revisão por profissional habilitado. NÃO SÃO REGRAS ATIVAS.",
+  "status_global": "EVIDENCIAS_IDENTIFICADAS_SEM_APROVACAO_CLINICA",
+  "aprovacao_clinica_realizada": false,
+  "fontes": [
+    {
+      "id": "ACHE_DIPIRONA_50_2024",
+      "medicamento": "Dipirona",
+      "produto_titular": "Aché Laboratórios Farmacêuticos S.A.",
+      "registro_anvisa_publicado_na_bula": "105730622",
+      "registro_correspondente_no_csv_usuario": true,
+      "apresentacao": "Solução oral 50 mg/mL, frasco de 100 mL",
+      "tipo_documento": "Bula do paciente publicada pelo fabricante - NÃO é bula do profissional",
+      "fonte_url": "https://www.ache.com.br/wp-content/uploads/application/pdf/bula-paciente-dipirona-monoidratada-solucao-oral.pdf",
+      "pagina_no_pdf": 2,
+      "secao": "6. Como devo usar este medicamento? / Posologia",
+      "referencia_publicada": "BU 06a VP 06/24; bula declara atualização conforme bula padrão aprovada pela Anvisa em 07/07/2022",
+      "data_consulta": "2026-11-11",
+      "status": "PRE_REVISAO_TECNICA_PENDENTE_BULA_PROFISSIONAL_E_ASSINATURA",
+      "observacao_critica": "Tabela estratificada por PESO com idade típica entre parênteses. Não converter em regra mg/kg única nem estender automaticamente para outras apresentações. Há contraindicações e fatores clínicos que não são cobertos apenas pela tabela.",
+      "tabela_pediatrica": [
+        {
+          "peso_kg_min": 5,
+          "peso_kg_max": 8,
+          "dose_unica_ml_min": 1.25,
+          "dose_unica_ml_max": 2.5,
+          "dose_unica_mg_min": 62.5,
+          "dose_unica_mg_max": 125,
+          "maximo_diario_ml": 10,
+          "maximo_diario_mg": 500
+        },
+        {
+          "peso_kg_min": 9,
+          "peso_kg_max": 15,
+          "dose_unica_ml_min": 2.5,
+          "dose_unica_ml_max": 5,
+          "dose_unica_mg_min": 125,
+          "dose_unica_mg_max": 250,
+          "maximo_diario_ml": 20,
+          "maximo_diario_mg": 1000
+        },
+        {
+          "peso_kg_min": 16,
+          "peso_kg_max": 23,
+          "dose_unica_ml_min": 3.75,
+          "dose_unica_ml_max": 7.5,
+          "dose_unica_mg_min": 187.5,
+          "dose_unica_mg_max": 375,
+          "maximo_diario_ml": 30,
+          "maximo_diario_mg": 1500
+        },
+        {
+          "peso_kg_min": 24,
+          "peso_kg_max": 30,
+          "dose_unica_ml_min": 5,
+          "dose_unica_ml_max": 10,
+          "dose_unica_mg_min": 250,
+          "dose_unica_mg_max": 500,
+          "maximo_diario_ml": 40,
+          "maximo_diario_mg": 2000
+        },
+        {
+          "peso_kg_min": 31,
+          "peso_kg_max": 45,
+          "dose_unica_ml_min": 7.5,
+          "dose_unica_ml_max": 15,
+          "dose_unica_mg_min": 375,
+          "dose_unica_mg_max": 750,
+          "maximo_diario_ml": 60,
+          "maximo_diario_mg": 3000
+        },
+        {
+          "peso_kg_min": 46,
+          "peso_kg_max": 53,
+          "dose_unica_ml_min": 8.75,
+          "dose_unica_ml_max": 17.5,
+          "dose_unica_mg_min": 437.5,
+          "dose_unica_mg_max": 875,
+          "maximo_diario_ml": 70,
+          "maximo_diario_mg": 3500
+        }
+      ],
+      "limite_de_uso": "Bula informa contraindicação para idade menor que 3 meses OU peso menor que 5 kg; confirmar com profissional antes de regra ativa.",
+      "adultos": {
+        "grupo": "Adultos e adolescentes acima de 15 anos",
+        "dose_unica_ml_min": 10,
+        "dose_unica_ml_max": 20,
+        "maximo_tomadas_dia": 4,
+        "maximo_diario_ml": 80
+      },
+      "necessita_validacao": [
+        "Bula profissional da mesma apresentação e detentor",
+        "Vigência e registro do produto",
+        "Contraindicações",
+        "Indicação e idade/estado clínico",
+        "Frequências permitidas",
+        "Integridade e hash SHA-256 do PDF profissional",
+        "Revisão e aprovação por profissional habilitado"
+      ]
+    },
+    {
+      "id": "ANVISA_IN106_PARACETAMOL_200",
+      "medicamento": "Paracetamol",
+      "apresentacao": "Solução oral 200 mg/mL",
+      "tipo_documento": "Instrução normativa Anvisa de medicamento isento de prescrição; NÃO é bula de produto específico",
+      "fonte_url": "https://anvisalegis-empresa.datalegis.net/action/ActionDatalegis.php?acao=detalharAto&cod_menu=8542&cod_modulo=310&desItem=&desItemFim=&nomeTitulo=codigos&numeroAto=00000106&orgao=DC%2FANVISA%2FMS&seqAto=000&tipo=INM&valorAno=2021",
+      "secao": "Paracetamol - Solução 200 mg/mL; redação alterada pela IN 430/2026",
+      "data_consulta": "2026-11-11",
+      "status": "REFERENCIA_REGULATORIA_PENDENTE_DE_BULA_ESPECIFICA_E_APROVACAO",
+      "posologia_regulatoria_pediatrica": {
+        "grupo": "menor que 12 anos",
+        "dose_mg_kg_min": 10,
+        "dose_mg_kg_max": 15,
+        "intervalo_horas_min": 4,
+        "intervalo_horas_max": 6,
+        "maximo_administracoes_dia": 5,
+        "observacao": "Para menores de 11 kg ou 2 anos, consultar médico antes do uso. A norma descreve aproximadamente 50-75 mg/kg/24h dependendo do número de administrações."
+      },
+      "posologia_regulatoria_adulta": {
+        "grupo": "adultos e uso pediátrico acima de 12 anos, conforme redação normativa; idade exatamente 12 exige revisão explícita",
+        "maximo_mg_por_administracao": 1000,
+        "maximo_mg_dia": 4000,
+        "intervalo_horas_min": 4,
+        "intervalo_horas_max": 6
+      },
+      "necessita_validacao": [
+        "Vincular fabricante, número de registro e bula do profissional",
+        "Confirmar aplicabilidade normativa à apresentação específica",
+        "Revisão de hepatopatias, associações e outras fontes de paracetamol",
+        "Revisão e aprovação por profissional habilitado"
+      ]
+    }
+  ]
+}

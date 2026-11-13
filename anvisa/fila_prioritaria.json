@@ -1,0 +1,227 @@
+{
+  "descricao": "Primeiros 20 medicamentos do catálogo para documentação acadêmica. Ordem não representa ranking de risco.",
+  "total": 20,
+  "status": "PENDENTE_FONTE_ESPECIFICA",
+  "medicamentos": [
+    {
+      "ordem": 1,
+      "medicamento_catalogo": "Dipirona",
+      "contagem_registros_candidatos": {
+        "ativos": 0,
+        "inativos": 0,
+        "outros": 0
+      },
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "observacao": "Selecione produto e bula; não há aprovação automática por dados cadastrais."
+    },
+    {
+      "ordem": 2,
+      "medicamento_catalogo": "Ibuprofeno",
+      "contagem_registros_candidatos": {
+        "ativos": 0,
+        "inativos": 0,
+        "outros": 0
+      },
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "observacao": "Selecione produto e bula; não há aprovação automática por dados cadastrais."
+    },
+    {
+      "ordem": 3,
+      "medicamento_catalogo": "Sertralina",
+      "contagem_registros_candidatos": {
+        "ativos": 0,
+        "inativos": 0,
+        "outros": 0
+      },
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "observacao": "Selecione produto e bula; não há aprovação automática por dados cadastrais."
+    },
+    {
+      "ordem": 4,
+      "medicamento_catalogo": "Varfarina",
+      "contagem_registros_candidatos": {
+        "ativos": 0,
+        "inativos": 0,
+        "outros": 0
+      },
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "observacao": "Selecione produto e bula; não há aprovação automática por dados cadastrais."
+    },
+    {
+      "ordem": 5,
+      "medicamento_catalogo": "Fluconazol",
+      "contagem_registros_candidatos": {
+        "ativos": 0,
+        "inativos": 0,
+        "outros": 0
+      },
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "observacao": "Selecione produto e bula; não há aprovação automática por dados cadastrais."
+    },
+    {
+      "ordem": 6,
+      "medicamento_catalogo": "Sinvastatina",
+      "contagem_registros_candidatos": {
+        "ativos": 0,
+        "inativos": 0,
+        "outros": 0
+      },
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "observacao": "Selecione produto e bula; não há aprovação automática por dados cadastrais."
+    },
+    {
+      "ordem": 7,
+      "medicamento_catalogo": "Anlodipino",
+      "contagem_registros_candidatos": {
+        "ativos": 0,
+        "inativos": 0,
+        "outros": 0
+      },
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "observacao": "Selecione produto e bula; não há aprovação automática por dados cadastrais."
+    },
+    {
+      "ordem": 8,
+      "medicamento_catalogo": "Amoxicilina",
+      "contagem_registros_candidatos": {
+        "ativos": 0,
+        "inativos": 0,
+        "outros": 0
+      },
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "observacao": "Selecione produto e bula; não há aprovação automática por dados cadastrais."
+    },
+    {
+      "ordem": 9,
+      "medicamento_catalogo": "Paracetamol",
+      "contagem_registros_candidatos": {
+        "ativos": 0,
+        "inativos": 0,
+        "outros": 0
+      },
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "observacao": "Selecione produto e bula; não há aprovação automática por dados cadastrais."
+    },
+    {
+      "ordem": 10,
+      "medicamento_catalogo": "Losartana",
+      "contagem_registros_candidatos": {
+        "ativos": 0,
+        "inativos": 0,
+        "outros": 0
+      },
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "observacao": "Selecione produto e bula; não há aprovação automática por dados cadastrais."
+    },
+    {
+      "ordem": 11,
+      "medicamento_catalogo": "Metformina",
+      "contagem_registros_candidatos": {
+        "ativos": 0,
+        "inativos": 0,
+        "outros": 0
+      },
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "observacao": "Selecione produto e bula; não há aprovação automática por dados cadastrais."
+    },
+    {
+      "ordem": 12,
+      "medicamento_catalogo": "Omeprazol",
+      "contagem_registros_candidatos": {
+        "ativos": 0,
+        "inativos": 0,
+        "outros": 0
+      },
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "observacao": "Selecione produto e bula; não há aprovação automática por dados cadastrais."
+    },
+    {
+      "ordem": 13,
+      "medicamento_catalogo": "Pantoprazol",
+      "contagem_registros_candidatos": {
+        "ativos": 0,
+        "inativos": 0,
+        "outros": 0
+      },
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "observacao": "Selecione produto e bula; não há aprovação automática por dados cadastrais."
+    },
+    {
+      "ordem": 14,
+      "medicamento_catalogo": "Esomeprazol",
+      "contagem_registros_candidatos": {
+        "ativos": 0,
+        "inativos": 0,
+        "outros": 0
+      },
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "observacao": "Selecione produto e bula; não há aprovação automática por dados cadastrais."
+    },
+    {
+      "ordem": 15,
+      "medicamento_catalogo": "Lansoprazol",
+      "contagem_registros_candidatos": {
+        "ativos": 0,
+        "inativos": 0,
+        "outros": 0
+      },
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "observacao": "Selecione produto e bula; não há aprovação automática por dados cadastrais."
+    },
+    {
+      "ordem": 16,
+      "medicamento_catalogo": "Ácido acetilsalicílico",
+      "contagem_registros_candidatos": {
+        "ativos": 0,
+        "inativos": 0,
+        "outros": 0
+      },
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "observacao": "Selecione produto e bula; não há aprovação automática por dados cadastrais."
+    },
+    {
+      "ordem": 17,
+      "medicamento_catalogo": "Clopidogrel",
+      "contagem_registros_candidatos": {
+        "ativos": 0,
+        "inativos": 0,
+        "outros": 0
+      },
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "observacao": "Selecione produto e bula; não há aprovação automática por dados cadastrais."
+    },
+    {
+      "ordem": 18,
+      "medicamento_catalogo": "Apixabana",
+      "contagem_registros_candidatos": {
+        "ativos": 0,
+        "inativos": 0,
+        "outros": 0
+      },
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "observacao": "Selecione produto e bula; não há aprovação automática por dados cadastrais."
+    },
+    {
+      "ordem": 19,
+      "medicamento_catalogo": "Rivaroxabana",
+      "contagem_registros_candidatos": {
+        "ativos": 0,
+        "inativos": 0,
+        "outros": 0
+      },
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "observacao": "Selecione produto e bula; não há aprovação automática por dados cadastrais."
+    },
+    {
+      "ordem": 20,
+      "medicamento_catalogo": "Dabigatrana",
+      "contagem_registros_candidatos": {
+        "ativos": 0,
+        "inativos": 0,
+        "outros": 0
+      },
+      "status": "PENDENTE_BULA_ESPECIFICA",
+      "observacao": "Selecione produto e bula; não há aprovação automática por dados cadastrais."
+    }
+  ]
+}

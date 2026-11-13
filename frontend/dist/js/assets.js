@@ -9,11 +9,5 @@ export const assets = {
     profile: '/assets/icon-profile.svg',
     calendar: '/assets/icon-calendar.svg',
     prescriptions: '/assets/icon-prescriptions.svg',
-    socialFacebook: '/assets/social/facebook.png',
-    socialGoogle: '/assets/social/google.png',
-    socialApple: '/assets/social/apple.png',
     profileNotifications: '/assets/profile/notifications.png',
-    profileSupport: '/assets/profile/support.png',
-    profileTerms: '/assets/profile/terms.png',
-    profileAccessibility: '/assets/profile/accessibility.png',
 };

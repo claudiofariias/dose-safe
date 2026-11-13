@@ -1,10 +1,12 @@
 import { assets } from '../assets.js';
 import { AppShell } from '../components/AppShell.js';
+import { api } from '../services/api.js';
 export class ProfilePage extends React.Component {
     constructor() {
         super(...arguments);
         this.state = {
             confirmLogout: false,
+            coverage: null,
         };
         this.openLogoutConfirm = () => {
             this.setState({ confirmLogout: true });
@@ -15,10 +17,14 @@ export class ProfilePage extends React.Component {
         this.confirmLogout = () => {
             this.setState({ confirmLogout: false }, () => this.props.onLogout());
         };
-        this.demoAction = (label) => {
-            this.props.onToast(`${label}: recurso demonstrativo do protótipo.`);
-        };
     }
+    componentDidMount() {
+        this.coverageActive = true;
+        api('/api/clinical/coverage').then(data => {
+            if (this.coverageActive) this.setState({coverage:data});
+        }).catch(() => {});
+    }
+    componentWillUnmount() { this.coverageActive = false; }
     render() {
         const roleFallback = {
             student: 'Estudante',
@@ -34,14 +40,18 @@ export class ProfilePage extends React.Component {
                 React.createElement("h2", null, this.props.user.name),
                 React.createElement("p", { className: "specialty" }, specialty),
                 this.props.user.crm ? (React.createElement("div", { className: "crm" }, this.props.user.crm)) : null,
+                this.state.coverage && React.createElement('section',{className:'card ds-coverage-card','aria-label':'Cobertura clínica'},
+                    React.createElement('strong',null,'Cobertura clínica'),
+                    React.createElement('div',{className:'ds-coverage-metrics'},
+                        React.createElement('span',null,'Catálogo ',React.createElement('b',null,this.state.coverage.medicamentos_catalogo)),
+                        React.createElement('span',null,'Registros candidatos ',React.createElement('b',null,this.state.coverage.medicamentos_com_candidatos)),
+                        React.createElement('span',null,'Referências de dose ',React.createElement('b',null,this.state.coverage.referencias_dose_cadastradas))),
+                    React.createElement('small',null,'Referências documentadas não substituem avaliação clínica. Registros de produtos não comprovam doses seguras.')),
                 React.createElement("div", { className: "card prefs" },
-                    React.createElement("div", { className: "pref-title" }, "Prefer\u00EAncias"),
-                    React.createElement(Preference, { label: "Notifica\u00E7\u00F5es", icon: assets.profileNotifications, onClick: () => this.props.onNavigate('alerts') }),
-                    React.createElement(Preference, { label: "Suporte", icon: assets.profileSupport, onClick: () => this.demoAction('Suporte') }),
-                    React.createElement(Preference, { label: "Termos de uso", icon: assets.profileTerms, onClick: () => this.demoAction('Termos de uso') }),
-                    React.createElement(Preference, { label: "Acessibilidade", icon: assets.profileAccessibility, onClick: () => this.demoAction('Acessibilidade') })),
+                    React.createElement("div", { className: "pref-title" }, "Atalhos"),
+                    React.createElement(Preference, { label: "Alertas de segurança", icon: assets.profileNotifications, onClick: () => this.props.onNavigate('alerts') })),
                 React.createElement("button", { className: "btn btn-primary btn-full profile-logout", type: "button", onClick: this.openLogoutConfirm }, "Sair"),
-                React.createElement("div", { className: "source profile-version" }, "App 1.2.0 \u2022 banco 1 \u2022 regras 1.0-demo")),
+                React.createElement("div", { className: "source profile-version" }, "App 1.9.0 \u2022 banco 1 \u2022 modo acadêmico")),
             this.state.confirmLogout ? (React.createElement("div", { className: "logout-modal-wrap", role: "dialog", "aria-modal": "true", "aria-labelledby": "logout-title", onClick: this.closeLogoutConfirm },
                 React.createElement("div", { className: "logout-modal", onClick: (event) => event.stopPropagation() },
                     React.createElement("h2", { id: "logout-title" }, "Tem certeza que gostaria de sair?"),

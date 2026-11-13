@@ -2620,3 +2620,238 @@ body {
 .alert-body, .alert-title, .alert-effect, .source { overflow-wrap: anywhere; }
 .alert-actions { gap: 8px; }
 .alert-actions .reviewed-btn { min-width: 0; }
+
+/* Mesmo alinhamento de marca nas telas de login e cadastro */
+.login-figma, .register-screen { position: relative; }
+.login-figma .login-logo, .register-screen .register-logo {
+ display:block !important; position:relative !important; width:256px !important;
+ max-width:calc(100% - 54px) !important; height:70px !important;
+ margin: 23px auto 16px !important; object-fit:contain !important;
+}
+.login-figma {padding-top:36px !important;}
+.register-screen {padding-top:36px !important;}
+.rx-detailed-item {display:grid;gap:9px;}
+.rx-dose-grid {display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:8px;}
+.rx-dose-field {display:grid;gap:5px;min-width:0;color:#29446c;font-size:12px;font-weight:700;}
+.rx-dose-field .input,.rx-dose-field .select {width:100%;min-width:0;font-size:12px;padding:7px;}
+.rx-dose-note {background:#e9f2ff;border-radius:7px;padding:8px;font-size:11px;line-height:1.45;color:#405f85;}
+
+/* Marca na mesma altura, preservando o espaçamento do formulário de login */
+.login-figma .login-logo {margin-bottom:92px !important;}
+.register-screen .register-logo {margin-bottom:16px !important;}
+
+/* Dose Safe: alertas clínicos compactos, com detalhes sob demanda */
+.clinical-alert-summary { display:grid; gap:10px; min-width:0; }
+.clinical-alert-counts { display:flex; flex-wrap:wrap; gap:3px; font-size:12px; color:#314a71; }
+.clinical-alert-counts strong {color:#102b58;}
+.clinical-alert-group {display:grid;gap:8px;min-width:0;}
+.clinical-alert-group h3 {margin:4px 0 0;font-size:13px;color:#233e67;}
+.clinical-alert-row {background:#fffaf4;border:1px solid #f0c48c;border-radius:9px;padding:10px;min-width:0;overflow-wrap:anywhere;}
+.clinical-alert-info {background:#f4f8ff;border-color:#b7d0f9;}
+.clinical-alert-top {display:flex;align-items:center;justify-content:space-between;gap:6px;margin-bottom:5px;}
+.clinical-alert-severity {font-size:10px;font-weight:800;color:#a84b0b;text-transform:uppercase;}
+.clinical-alert-severity.severity-contraindicado,.clinical-alert-severity.severity-grave {color:#a71c29;}
+.clinical-alert-severity.severity-info {color:#2457a0;}
+.clinical-alert-toggle {border:0;background:transparent;color:#153e82;font-size:11px;font-weight:700;cursor:pointer;padding:5px;}
+.clinical-alert-name {display:block;font-size:12px;line-height:1.4;color:#8c3c0a;}
+.clinical-alert-info .clinical-alert-name {color:#194d9c;}
+.clinical-alert-effect {font-size:11px;line-height:1.5;margin:4px 0 0;color:#3d4e64;}
+.clinical-alert-extra {border-top:1px solid #d8e1ef;margin-top:8px;padding-top:7px;font-size:11px;line-height:1.5;color:#3b5376;}
+.clinical-alert-extra p {margin:0 0 6px;}
+.clinical-alert-source {overflow-wrap:anywhere;font-size:10px;}
+.clinical-alert-info-button {width:100%;text-align:left;padding:11px;border:1px solid #b7d0f9;border-radius:8px;background:#eaf2ff;color:#164582;font-weight:700;cursor:pointer;}
+.clinical-alert-info-note,.clinical-alert-no-risk {font-size:11px;line-height:1.45;color:#4e6485;margin:0;}
+.rx-ux-count {white-space:normal;text-align:right;max-width:60%;}
+/* Âncora visual idêntica da marca em login e cadastro, sem depender da altura do formulário. */
+.auth-phone .login-figma,.auth-phone .register-screen {position:relative!important;padding-top:145px!important;box-sizing:border-box;}
+.auth-phone .login-figma .login-logo,.auth-phone .register-screen .register-logo {
+  position:absolute!important;top:48px!important;left:50%!important;transform:translateX(-50%)!important;
+  margin:0!important;width:256px!important;max-width:calc(100% - 54px)!important;
+  height:70px!important;object-fit:contain!important;display:block!important;z-index:3!important;
+}
+.auth-phone .register-screen .back {z-index:4!important;}
+
+/* Voltar ao lado da marca, sem deslocar o cabeçalho nem cobrir "Seja bem-vindo". */
+.auth-phone .register-screen .back.back-light {
+    position: absolute !important;
+    top: 64px !important;
+    left: max(10px, calc(50% - 172px)) !important;
+    z-index: 5 !important;
+    width: 36px !important;
+    height: 36px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    border-radius: 50% !important;
+    background: rgba(255,255,255,.12) !important;
+    color: white !important;
+    line-height: 1 !important;
+}
+.rx-early-screen { display: grid; gap: 10px; }
+.rx-early-screen .clinical-alert-summary { margin-top: 2px; }
+
+/* Dispensação: uma linha para quantidade e unidade, sem texto redundante */
+.rx-dispense-box{margin:10px 0 14px;padding:12px 14px;background:#f8fafc;border:1px solid #e2e8f0;border-radius:10px}
+.rx-dispense-top{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:7px;font-size:14px;color:#0f172a}
+.rx-dispense-toggle{background:none;border:0;color:#155e75;font-weight:600;font-size:12px;cursor:pointer;padding:4px 0;text-decoration:underline;text-underline-offset:3px}
+.rx-dispense-quantity{display:flex;align-items:center;gap:12px}
+.rx-dispense-quantity .input{max-width:180px;margin:0;font-size:17px;font-weight:650}
+.rx-dispense-quantity .input[readonly]{background:#eef2f7;color:#0f172a}
+.rx-dispense-unit{font-size:13px;color:#475569}
+.rx-dispense-hint{display:block;margin:6px 0 0;color:#64748b;font-size:11px;line-height:1.4}
+.rx-dispense-box .rx-dose-field{margin-top:10px}
+@media(max-width:480px){.rx-dispense-box{padding:10px}.rx-dispense-quantity .input{max-width:125px}}
+
+.rx-dispense-error{display:block;margin-top:7px;color:#a21d2b;font-size:12px;font-weight:650;line-height:1.35}
+.rx-dispense-box .rx-dose-field{margin-bottom:10px}
+
+/* Alertas: cartões consultáveis, ações secundárias discretas e confirmação. */
+.ds-alert-detail-card{margin-bottom:12px;padding:14px}
+.ds-alert-head{display:flex;justify-content:space-between;align-items:flex-start;gap:10px}
+.ds-alert-head strong{font-size:14px;line-height:1.35}
+.ds-alert-head .chip{font-size:11px;flex-shrink:0}
+.ds-alert-effect{font-size:13px;line-height:1.45;margin:8px 0;color:#334155}
+.ds-alert-buttons{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.ds-alert-buttons .btn{width:auto;min-height:36px;padding:7px 12px;font-size:12px}
+.ds-alert-clear,.ds-alert-restore{border:0;background:transparent;color:#9f2433;font-size:12px;text-decoration:underline;cursor:pointer;padding:9px}
+.ds-alert-expanded{border-top:1px solid #d8e2f1;margin-top:12px;padding-top:12px;color:#334155;font-size:12px;line-height:1.5}
+.ds-alert-expanded p{margin:6px 0}
+.ds-alert-expanded small{display:block;color:#64748b}
+.ds-alert-clear-all{margin-top:18px}
+.ds-alert-restore{display:block;margin:10px auto;color:#375f9e}
+.ds-alert-dialog-overlay{position:fixed;inset:0;background:rgba(15,23,42,.58);z-index:3000;display:flex;align-items:center;justify-content:center;padding:20px}
+.ds-alert-dialog{width:min(100%,360px);border-radius:14px;padding:20px;background:#fff;color:#0f172a;box-shadow:0 16px 42px #0004}
+.ds-alert-dialog h2{font-size:18px;margin:0 0 9px}
+.ds-alert-dialog p{font-size:13px;line-height:1.5;color:#475569}
+.ds-alert-dialog-actions{display:flex;gap:10px;justify-content:flex-end;margin-top:17px}
+.ds-alert-dialog-actions .btn{width:auto;font-size:13px;padding:9px 14px}
+
+/* Cobertura posológica: leitura rápida, sem sugerir segurança global. */
+.rx-dose-coverage { display:flex; flex-wrap:wrap; gap:5px 12px; align-items:baseline; padding:10px 12px; margin-bottom:8px; background:#f8fafc; border:1px solid #e2e8f0; border-radius:10px; font-size:12px; }
+.rx-dose-coverage strong { font-size:13px; color:#0f172a; }
+.rx-dose-coverage span { color:#334155; }
+.rx-dose-coverage small { color:#64748b; display:block; flex-basis:100%; }
+
+.ds-coverage-card { display:grid; gap:8px; margin:14px 0; padding:14px; font-size:13px; }
+.ds-coverage-card > strong { font-size:14px; }
+.ds-coverage-metrics {display:flex; gap:10px; flex-wrap:wrap;}
+.ds-coverage-metrics span {display:flex; gap:4px; font-size:12px; color:#334155;}
+.ds-coverage-card small {color:#64748b; line-height:1.4;}
+
+/* Dose Safe 2026-11: hierarquia clínica, registro opcional e campos alinhados. */
+.rx-clinical-entry{display:grid;gap:5px;min-width:0;margin:2px 0 5px}
+.rx-clinical-entry > .rx-dose-field{width:100%;margin:0}
+.rx-clinical-entry .rx-dose-field > span{line-height:1.35}
+.rx-clinical-entry .rx-dose-field .input{min-height:40px;box-sizing:border-box}
+.rx-clinical-help{color:#60728e;font-size:11px;line-height:1.45;display:block;font-weight:400}
+.rx-product-details{border-top:1px solid #cddcf2;margin-top:8px;padding-top:8px;min-width:0}
+.rx-product-details > summary{color:#224c84;font-size:12px;font-weight:650;cursor:pointer;line-height:1.4;padding:4px 0;list-style-position:inside}
+.rx-product-details[open]{display:grid;gap:8px}
+.rx-product-details .rx-dose-field{margin:0}
+.rx-product-source{font-size:11px;color:#1e54a2;text-decoration:underline;text-underline-offset:2px;justify-self:start}
+.rx-dose-grid > .rx-dose-field{min-width:0;align-content:start}
+.rx-dose-grid > .rx-dose-field .input,.rx-dose-grid > .rx-dose-field .select{box-sizing:border-box;min-height:40px}
+@media(max-width:340px){.rx-dose-grid{grid-template-columns:minmax(0,1fr)}}
+
+/* Histórico: riscos em vermelho/âmbar, informações pendentes em azul neutro. */
+.history-grid { grid-template-columns:minmax(0,1fr) auto auto; align-items:center; gap:8px; }
+.history-grid > * { min-width:0; }
+.alert-count { font-size:11px; font-weight:700; text-align:right; line-height:1.3;
+  max-width:135px; white-space:normal; overflow-wrap:normal; }
+.alert-count-risk { color:#b4232e; }
+.alert-count-info { color:#28548f; }
+.alert-count-empty { color:#476481; }
+.history-alert { padding:10px; margin-top:8px; border-radius:8px; font-size:12px;
+  line-height:1.45; overflow-wrap:anywhere; border:1px solid transparent; }
+.history-alert-info { background:#eaf2ff; border-color:#d4e3fa; color:#1e3a64; }
+.history-alert-warning { background:#fff4df; border-color:#efd7a4; color:#4a3516; }
+.history-alert-danger { background:#fdeceb; border-color:#f1beb9; color:#761e1c; }
+.history-alert-severity { display:block; font-size:10px; text-transform:uppercase;
+  letter-spacing:.035em; font-weight:700; margin-bottom:4px; opacity:.85; }
+.rx-ux-count-info { color:#28548f; }
+@media (max-width:360px) {
+  .history-grid { grid-template-columns:minmax(0,1fr) auto; }
+  .history-grid > button { grid-column:2; grid-row:1; }
+  .history-grid > .alert-count { grid-column:1 / -1; justify-self:start; text-align:left; }
+}
+
+.history-alert-source { margin-top:7px; font-size:11px; color:#425a7e; }
+.history-alert-source summary { cursor:pointer; font-weight:700; }
+.history-alert-source p { margin:4px 0 0; overflow-wrap:anywhere; }
+
+/* Prescrição 1.8 — informação prioritária e controles touch-friendly. */
+.rx-medication-heading {display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:9px}
+.rx-medication-heading .label {margin:0}
+.rx-medication-count {font-size:11px;font-weight:700;white-space:nowrap;color:#244a85;background:#e5efff;padding:5px 8px;border-radius:999px}
+.rx-patient-flag {font-size:11px;line-height:1.45;margin-top:3px}
+.rx-patient-flag-danger {color:#ab202a;font-weight:700}
+.rx-patient-flag-pending {color:#865c16}
+.rx-patient-flag-neutral {color:#4b607a}
+.rx-patient-details {margin-top:9px;padding:10px 12px;gap:6px;box-shadow:none}
+.rx-patient-details summary {color:#244a85;font-size:12px;font-weight:700;cursor:pointer}
+.rx-patient-details[open] {padding-bottom:12px}
+.rx-patient-details .clinical-rx-line:first-of-type {margin-top:7px}
+.rx-pediatric-banner {margin-top:8px;padding:8px 10px;color:#684714;background:#fff6e5;border:1px solid #f0d7a5;border-radius:8px;font-size:11px;line-height:1.45}
+.rx-early-screen {gap:8px}
+.rx-early-screen > strong {font-size:14px;color:#24384d}
+.rx-screen-hint {display:block;font-size:10px;color:#64748b;line-height:1.4}
+.rx-quantity-stepper {display:flex;align-items:stretch;min-height:42px;border:1px solid #8198c9;border-radius:7px;background:#fff;overflow:hidden;width:100%}
+.rx-quantity-stepper:focus-within {outline:2px solid #6a9bdd;outline-offset:1px}
+.rx-quantity-stepper .rx-step-btn {flex:0 0 38px;border:0;background:#eaf2ff;color:#153c7a;font-size:22px;font-weight:700;line-height:1;cursor:pointer}
+.rx-quantity-stepper .rx-step-btn:first-child {border-right:1px solid #cbdaf1}
+.rx-quantity-stepper .rx-step-btn:last-child {border-left:1px solid #cbdaf1}
+.rx-quantity-stepper .rx-step-btn:disabled {opacity:.35;cursor:not-allowed}
+.rx-quantity-stepper .rx-step-input {flex:1;min-width:0;width:35px;border:0;border-radius:0;box-shadow:none!important;text-align:center;font-size:15px;font-weight:700;padding:5px 2px;background:#fff}
+.rx-quantity-stepper .rx-step-input:focus {outline:0;box-shadow:none}
+.rx-medication-heading + .input {margin-top:0}
+.rx-safety-message {margin:4px 0;color:#53657e;font-size:12px;line-height:1.5}
+.rx-review-button {min-height:44px;margin-top:9px;font-size:13px}
+.rx-academic-note {display:block;margin:9px 2px 1px;color:#66758b;font-size:10px;line-height:1.4;text-align:center}
+.rx-dose-details {font-size:11px;color:#586b8a;padding:8px 0;border-top:1px solid #e4eaf4}
+.rx-dose-details summary {display:flex;justify-content:space-between;flex-wrap:wrap;gap:4px;cursor:pointer;color:#294a7b;font-weight:700}
+.rx-dose-details summary > span {font-weight:400;color:#536985}
+.rx-dose-details p {margin:7px 0 0;line-height:1.4}
+.clinical-alert-info-button {display:flex;justify-content:space-between;align-items:center;gap:12px;padding:9px 10px;font-size:12px;line-height:1.4}
+.clinical-alert-info-button > span:first-child {min-width:0;overflow-wrap:anywhere}
+.clinical-alert-info-button > span:last-child {font-size:20px;flex:0 0 auto;line-height:1}
+.clinical-alert-counts {font-size:12px}
+.clinical-alert-critical {background:#fff5f5;border-color:#e7a1a5}
+.clinical-alert-critical .clinical-alert-name {color:#a31d29}
+.clinical-alert-risk:not(.clinical-alert-critical) {background:#fffaf4}
+.rx-ux-safety {margin-top:12px}
+.rx-ux-heading {margin-bottom:7px}
+.rx-ux-confirm {margin-top:8px}
+.rx-detailed-item {gap:8px}
+.rx-product-details > summary {font-size:11px}
+.rx-dose-note {font-size:10px}
+@media(max-width:360px) {
+  .rx-quantity-stepper .rx-step-btn {flex-basis:33px}
+  .rx-ux-heading {align-items:flex-start}
+  .rx-ux-count {white-space:normal;text-align:center}
+}
+
+/* Estilos que antes eram injetados na tela de prescrição; um único CSS global. */
+.rx-early-inline {border:1px solid #c8d8ec;border-radius:9px;background:#f7faff;padding:11px;margin:11px 0 13px;display:grid;gap:8px}
+.rx-early-inline .clinical-alert-summary {margin-top:1px}
+.rx-pediatric-unavailable {padding:9px;border:1px solid #e5c987;background:#fff9e9;border-radius:8px;font-size:11px;line-height:1.45;color:#705018}
+.rx-ux-safety {background:#fff;border:1px solid #dbe3f0;border-radius:12px;padding:12px;margin:12px 0 16px;box-shadow:0 2px 9px rgba(11,31,70,.06)}
+.rx-ux-heading {display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:10px;color:#1c2c45}
+.rx-ux-heading strong {font-size:13px;line-height:1.2}
+.rx-ux-count {flex-shrink:0;font-size:11px;font-weight:700;border-radius:999px;padding:4px 8px;white-space:nowrap}
+.rx-ux-count-danger {background:#fee2e2;color:#b91c1c}
+.rx-ux-count-warning {background:#ffedd5;color:#c2410c}
+.rx-ux-alert-list {display:grid;gap:8px}
+.rx-ux-status {border:1px solid;border-radius:9px;padding:9px 10px;font-size:12px;line-height:1.35;margin-top:4px}
+.rx-ux-status strong {display:block;font-size:12px;margin-bottom:2px}
+.rx-ux-status-danger {background:#fff7f7;border-color:#fecaca;color:#991b1b}
+.rx-ux-status-warning {background:#fffaf5;border-color:#fed7aa;color:#9a3412}
+.rx-ux-status-info {background:#f8fbff;border-color:#bfdbfe;color:#1d4ed8}
+.rx-ux-confirm {min-height:56px;margin-top:10px}
+.rx-ux-confirm:disabled {cursor:not-allowed;opacity:1;background:#94a3b8!important;border-color:#94a3b8!important;color:#fff!important}
+.rx-pediatric-reference {display:grid;gap:9px;margin-top:12px;padding:12px;border:1px solid #aac5e9;border-radius:9px;background:#f6faff}
+.rx-pediatric-reference > strong {color:#173f70;font-size:13px}
+.rx-pediatric-reference .rx-ped-confirm {display:flex;gap:9px;align-items:flex-start;font-size:12px;line-height:1.45}
+.rx-pediatric-reference .rx-ped-confirm input {flex:0 0 auto;margin-top:2px}
+.rx-pediatric-reference a {color:#1d4ed8;text-decoration:underline}
